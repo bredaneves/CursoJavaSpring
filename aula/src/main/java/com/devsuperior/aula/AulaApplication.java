@@ -25,7 +25,7 @@ public class AulaApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		//System.out.println("Ola mundo");		
-		Employee employee = new Employee(name: "Maria", grossSalary: 4000.00);
+		Employee employee = new Employee("Maria", 4000.00);
 		System.out.println(salaryService.netSalary(employee));
 	}
 
