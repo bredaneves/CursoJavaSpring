@@ -15,35 +15,19 @@ import com.devsuperior.dsmeta.entities.Sale;
 
 public interface SaleRepository extends JpaRepository<Sale, Long> {
 	
-	@Query(
-      nativeQuery = true,
-      value = 
-          "SELECT s.id, s.date, s.amount, se.name AS sellerName "
-        + "FROM tb_sales s "
-        + "INNER JOIN tb_sellers se ON s.seller_id = se.id "
-        + "WHERE s.date BETWEEN :minDate AND :maxDate "
-        + "AND UPPER(se.name) LIKE CONCAT('%', UPPER(:name), '%') "
-        + "ORDER BY s.date DESC "      
-    )
-    Page<SaleMinDTO> searchReport(
-        @Param("minDate") LocalDate minDate,
-        @Param("maxDate") LocalDate maxDate,
-        @Param("name") String name,
-        Pageable pageable
-    );
+	@Query("SELECT new com.devsuperior.dsmeta.dto.SaleMinDTO(s.id, s.date, s.amount, s.seller.name) " +
+		       "FROM Sale s " +
+		       "WHERE s.date BETWEEN :minDate AND :maxDate " +
+		       "AND UPPER(s.seller.name) LIKE CONCAT('%', UPPER(:name), '%') " +
+		       "ORDER BY s.date DESC")
+	Page<SaleMinDTO> searchReport(@Param("minDate") LocalDate minDate,
+	                              @Param("maxDate") LocalDate maxDate,
+	                              @Param("name") String name,
+	                              Pageable pageable);	
 	
-	@Query(
-      nativeQuery = true,
-      value = 
-          "SELECT se.name AS sellerName, SUM(s.amount) AS total "
-        + "FROM tb_sales s "
-        + "INNER JOIN tb_sellers se ON s.seller_id = se.id "
-        + "WHERE s.date BETWEEN :minDate AND :maxDate "
-        + "GROUP BY se.name "
-        + "ORDER BY se.name "      
-    )
-    List<SaleSummaryDTO> searchSummary(
-        @Param("minDate") LocalDate minDate,
-        @Param("maxDate") LocalDate maxDate
-    );
+	@Query("SELECT new com.devsuperior.dsmeta.dto.SaleSummaryDTO(s.seller.name, SUM(s.amount)) " +
+		       "FROM Sale s WHERE s.date BETWEEN :minDate AND :maxDate " +
+		       "GROUP BY s.seller.name ORDER BY s.seller.name")
+	List<SaleSummaryDTO> searchSummary(@Param("minDate") LocalDate minDate, @Param("maxDate") LocalDate maxDate);
+
 }
