@@ -43,6 +43,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Projetos\D--Projetos\desafio5"/>
+			<item value="D:\Projetos\D--Projetos\spring-boot-oauth2-jwt-demo-main\password-grant\spring-boot-3-4-3-noauth"/>
 			<item value="D:\Projetos\D--Projetos\desafio4"/>
 			<item value="D:\Projetos\D--Projetos\desafio3"/>
 			<item value="D:\Projetos\D--Projetos\desafio2"/>
