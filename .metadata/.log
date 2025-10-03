@@ -8461,3 +8461,43 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:19:10.740
 !MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:28:05.886
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:28:05.933
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:29:51.753
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:29:51.822
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-10-03 15:29:53.433
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:29:54.117
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:29:54.131
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:30:17.806
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-03 15:30:17.821
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
