@@ -8,10 +8,10 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.devsuperior.demo.projections.UserDetailsProjection;
-import com.devsuperior.demo.repositories.UserRepository;
 import com.devsuperior.dsmeta.entities.Role;
 import com.devsuperior.dsmeta.entities.User;
+import com.devsuperior.dsmeta.projections.UserDetailsProjection;
+import com.devsuperior.dsmeta.repositories.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService {

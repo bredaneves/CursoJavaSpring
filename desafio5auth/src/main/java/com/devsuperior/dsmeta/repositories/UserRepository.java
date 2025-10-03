@@ -6,8 +6,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.devsuperior.demo.projections.UserDetailsProjection;
 import com.devsuperior.dsmeta.entities.User;
+import com.devsuperior.dsmeta.projections.UserDetailsProjection;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
