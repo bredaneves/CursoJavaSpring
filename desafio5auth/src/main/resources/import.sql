@@ -237,3 +237,16 @@ INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,58,48,5283.0
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (4,55,35,20474.0,'2021-07-05');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (5,84,34,5787.0,'2021-07-01');
 INSERT INTO tb_sales(seller_id,visited,deals,amount,date) VALUES (3,79,68,11976.0,'2021-06-27');
+
+INSERT INTO tb_user (name, email, password) VALUES ('Alex', 'alex@gmail.com', '$2a$10$czLaAFuRv37kRyK/gxIAx.yuR2/I.u7RE5NTSPm.fd64AgM0vqNm.');
+INSERT INTO tb_user (name, email, password) VALUES ('Maria', 'maria@gmail.com', '$2a$10$czLaAFuRv37kRyK/gxIAx.yuR2/I.u7RE5NTSPm.fd64AgM0vqNm.');
+
+INSERT INTO tb_product (name) VALUES ('TV');
+INSERT INTO tb_product (name) VALUES ('Computer');
+
+INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
+INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
+
+INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);
+INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 1);
+INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
