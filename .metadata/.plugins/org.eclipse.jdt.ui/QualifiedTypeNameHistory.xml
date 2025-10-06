@@ -7,4 +7,11 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.devsuperior.demo.entities.User"/>
     <fullyQualifiedTypeName name="com.devsuperior.demo.entities.Role"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dsmeta.entities.Role"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dsmeta.entities.User"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
 </qualifiedTypeNameHistroy>
