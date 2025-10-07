@@ -2506,3 +2506,121 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:55:41.540
 !MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:11.026
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:11.051
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:29.319
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:29.331
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:50.669
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:57:50.683
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:03.744
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:03.758
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:39.615
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:39.630
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-10-06 20:58:40.846
+!MESSAGE Timed out after waiting for 300ms for semantic tokens from Language Servers
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaSemanticTokensProvider.computeSemanticTokens(LSJavaSemanticTokensProvider.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.getContributedSemanticTokens(SemanticHighlightingReconciler.java:423)
+	at org.eclipse.jdt.internal.ui.javaeditor.SemanticHighlightingReconciler.reconciled(SemanticHighlightingReconciler.java:470)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.reconciled(CompilationUnitEditor.java:1674)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconciled(JavaReconcilingStrategy.java:228)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconciled(JavaCompositeReconcilingStrategy.java:171)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:115)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:58.669
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:58:58.683
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:04.874
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:04.884
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:11.771
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:11.780
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:16.108
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:16.119
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:21.146
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:21.182
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:26.547
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:26.560
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:51.929
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 20:59:51.942
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:00.138
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:00.152
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:09.262
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:09.278
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:18.027
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:18.077
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:24.686
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:24.702
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:29.331
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mresources[0;1;33m ([0;1;33mdefault-resources[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-10-06 21:00:29.343
+!MESSAGE [1;33mParameter '[0;1;33mpropertiesEncoding[0;1;33m' is unknown for plugin '[0;1;33mmaven-resources-plugin[0;1;33m:[0;1;33m3.1.0[0;1;33m:[0;1;33mtestResources[0;1;33m ([0;1;33mdefault-testResources[0;1;33m)[0;1;33m'[m
