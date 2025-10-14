@@ -97,6 +97,9 @@
 				{
 					"name": "Product by id",
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
 						"header": [
 							{
@@ -124,6 +127,9 @@
 				{
 					"name": "Products",
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
 						"header": [
 							{
