@@ -3,8 +3,6 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="com.devsuperior.services.SalaryService"/>
     <fullyQualifiedTypeName name="org.springframework.security.crypto.password.PasswordEncoder"/>
-    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.servlet.PathRequest"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.devsuperior.demo.entities.User"/>
     <fullyQualifiedTypeName name="com.devsuperior.demo.entities.Role"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -14,4 +12,9 @@
     <fullyQualifiedTypeName name="com.devsuperior.dsmeta.entities.User"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.servlet.PathRequest"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.User"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.Role"/>
 </qualifiedTypeNameHistroy>
