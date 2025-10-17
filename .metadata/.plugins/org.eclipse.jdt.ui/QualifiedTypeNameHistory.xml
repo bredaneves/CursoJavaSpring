@@ -14,7 +14,19 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.servlet.PathRequest"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.User"/>
     <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.Role"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.jwt.Jwt"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.Category"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.OrderItem"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.Order"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.OrderStatus"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dscommerce.entities.User"/>
 </qualifiedTypeNameHistroy>
