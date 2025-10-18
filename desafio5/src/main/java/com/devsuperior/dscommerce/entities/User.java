@@ -113,8 +113,12 @@ public class User implements UserDetails {
     
     public void addRole(Role role) {
     	roles.add(role);
-    }
-    
+    }        
+
+    public Set<Role> getRoles() {
+		return roles;
+	}
+	
     public boolean hasRole(String roleName) {
     	for (Role role : roles) {
     		if (role.getAuthority().equals(roleName)) {
@@ -122,12 +126,7 @@ public class User implements UserDetails {
     		}
     	}
     	return false;
-    }    
-
-    public Set<Role> getRoles() {
-		return roles;
-	}
-	
+    }
 
 	@Override
     public boolean equals(Object o) {
